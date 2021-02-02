@@ -1,3 +1,13 @@
+/* ------------------------------------------------------
+[Stylesheet]
+
+Project:    Horiseon Social Solution Services, Inc.
+Version:    1.1
+Last change:    02/02/2021 add css commenting
+Assigned to:    Dan Ryan
+Primary use:    Social Media Marketing
+-------------------------------------------------------*/
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -11,6 +21,15 @@ body {
 p {
     font-size: 16px;
 }
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/*****************
+**Header section**
+*****************/
 
 header {
     padding: 20px;
@@ -46,10 +65,9 @@ nav ul li {
     margin-left: 25px;
 }
 
-a {
-    color: #ffffff;
-    text-decoration: none;
-}
+/*****************
+*Background image*
+******************/
 
 .hero {
     height: 800px;
@@ -60,15 +78,9 @@ a {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
+/*************
+*Main Content*
+**************/
 
 section {
     width: 75%;
@@ -89,10 +101,24 @@ section article img {
     max-height: 200px;
 }
 
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
 section article h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
+
+/***********
+**Side-bar**
+************/
 
 aside {
     margin-right: 20px;
@@ -121,6 +147,10 @@ aside article img {
     margin: 10px auto;
     max-width: 150px;
 }
+
+/*********
+**footer**
+**********/
 
 footer {
     padding: 30px;
