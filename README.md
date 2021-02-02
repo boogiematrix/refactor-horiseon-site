@@ -5,5 +5,6 @@ I was tasked with updating the codebase to meet accessibility standards so that 
 I've included a link to the project:
 https://boogiematrix.github.io/refactor-horiseon-site/
 
-and a screenshot:
-[site preview] (assets/images/01-html-css-git-homework-demo.png)
+and a screenshot of the site:
+
+![site preview](https://github.com/boogiematrix/refactor-horiseon-site/blob/main/assets/images/01-html-css-git-homework-demo.png)
