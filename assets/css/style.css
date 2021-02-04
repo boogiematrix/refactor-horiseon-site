@@ -3,10 +3,15 @@
 
 Project:    Horiseon Social Solution Services, Inc.
 Version:    1.1
-Last change:    02/02/2021 add css commenting
+Last change:    02/04/2021 tweaks to css commenting
 Assigned to:    Dan Ryan
 Primary use:    Social Media Marketing
 -------------------------------------------------------*/
+/*Style elemnts are in sequential order based on html*/
+
+/*********************
+*General Page Elements
+**********************/
 
 * {
     box-sizing: border-box;
@@ -23,7 +28,7 @@ p {
 }
 
 a {
-    color: #ffffff;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -36,7 +41,7 @@ header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
     'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
-    color: #ffffff;
+    color: #fff;
 }
 
 header h1 {
